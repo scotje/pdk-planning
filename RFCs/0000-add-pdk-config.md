@@ -212,10 +212,10 @@ and will not apply to another developer working on the same codebase.
 
 | Key | Description |
 | --- | --- |
-| user.module\_defaults.template.url | Default template URL to use when generating a new module. |
-| user.module\_defaults.template.ref | Default template ref to use when generating a new module. (E.g. branch or tag.) |
-| user.module\_defaults.metadata.author | Default value for the “author” key in metadata.json for a new module. Supersedes previous ~/.pdk/cache/answers.json functionality. |
-| user.module\_defaults.metadata.license | Default value for the “license” key in metadata.json for a new module. Supersedes previous ~/.pdk/cache/answers.json functionality. |
+| user.module\_defaults.template.url | Default template URL to use when generating a new module or converting a module. |
+| user.module\_defaults.template.ref | Default template ref to use when generating a new module or converting a module. (E.g. branch or tag.) |
+| user.module\_defaults.metadata.author | Default value for the “author” key in metadata.json for a new or converted module. Supersedes previous ~/.pdk/cache/answers.json functionality. |
+| user.module\_defaults.metadata.license | Default value for the “license” key in metadata.json for a new or converted module. Supersedes previous ~/.pdk/cache/answers.json functionality. |
 | user.forge.username | Primary Forge username of this developer. Note that this may be an organization rather than a personal username. Used as the default value in metadata.json when generating a new module. Supersedes previous ~/.pdk/cache/answers.json functionality. |
 | [user.forge.api\_key] | Placeholder for future Forge API interactions. |
 | [user.forge.api\_secret] | Placeholder for future Forge API interactions. |
